@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import TemporaryDrawer from "./components/TemporaryDrawer";
+import ResponsiveDrawer from "./components/ResponsiveDrawer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
         <hr />
         <TemporaryDrawer />
+        <ResponsiveDrawer />
       </header>
     </div>
   );
