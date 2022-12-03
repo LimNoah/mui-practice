@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import TemporaryDrawer from "./components/TemporaryDrawer";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
+import BasicTextFields from "./components/BasicTextField";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <hr />
         <TemporaryDrawer />
         <ResponsiveDrawer />
+        <BasicTextFields />
       </header>
     </div>
   );
