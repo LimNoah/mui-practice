@@ -3,6 +3,7 @@ import "./App.css";
 import TemporaryDrawer from "./components/TemporaryDrawer";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
 import BasicTextFields from "./components/BasicTextField";
+import ContinuousSlider from "./components/ContinuousSlider";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <TemporaryDrawer />
         <ResponsiveDrawer />
         <BasicTextFields />
+        <ContinuousSlider />
       </header>
     </div>
   );
