@@ -4,6 +4,7 @@ import TemporaryDrawer from "./components/TemporaryDrawer";
 import ResponsiveDrawer from "./components/ResponsiveDrawer";
 import BasicTextFields from "./components/BasicTextField";
 import ContinuousSlider from "./components/ContinuousSlider";
+import ToggleButtons from "./components/ToggleBuuttons";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <ResponsiveDrawer />
         <BasicTextFields />
         <ContinuousSlider />
+        <ToggleButtons />
       </header>
     </div>
   );
