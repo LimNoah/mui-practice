@@ -5,6 +5,7 @@ import ResponsiveDrawer from "./components/ResponsiveDrawer";
 import BasicTextFields from "./components/BasicTextField";
 import ContinuousSlider from "./components/ContinuousSlider";
 import ToggleButtons from "./components/ToggleBuuttons";
+import TransferList from "./components/TransferList";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <BasicTextFields />
         <ContinuousSlider />
         <ToggleButtons />
+        <TransferList />
       </header>
     </div>
   );
