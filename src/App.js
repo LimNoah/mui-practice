@@ -6,6 +6,7 @@ import BasicTextFields from "./components/BasicTextField";
 import ContinuousSlider from "./components/ContinuousSlider";
 import ToggleButtons from "./components/ToggleBuuttons";
 import TransferList from "./components/TransferList";
+import ComboBox from "./components/ComboBox";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <ContinuousSlider />
         <ToggleButtons />
         <TransferList />
+        <ComboBox />
       </header>
     </div>
   );
